@@ -12,6 +12,7 @@ lists = '''
     Colgate       Rs 65/each
     Fogg perfume  Rs 135/each
     Onion         Rs 50/kg
+    Apple         Rs 100/kg
     '''
 price = 0
 price_list = []
@@ -22,7 +23,8 @@ quantity_list = []
 P_list = []
 
 items = {'Rice':75,'Sugar':50,'Salt':25,'Oil':175,'Panner':350,
-         'Vermicelli':70,'Maggi':99,'Colgate':65,'Fogg perfume':135,'Onion':50}
+         'Vermicelli':70,'Maggi':99,'Colgate':65,'Fogg perfume':135,
+         'Onion':50,'Apple':100}
 option = int(input("for list of items press 1:"))
 if option == 1:
   print(lists)
